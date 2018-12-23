@@ -9,6 +9,6 @@ Pod::Spec.new do |s|
 	s.requires_arc	= true
 	s.source		= { :git => 'https://github.com/alobi/ALMoviePlayerController.git', :tag => s.version.to_s }
 	s.source_files	= 'ALMoviePlayerController/*.{h,m}'
-	s.resources		= 'ALMoviePlayerController/Images/*.{png}'
+	# s.resources		= 'ALMoviePlayerController/Images/*.{png}'
 	s.frameworks	= 'QuartzCore', 'MediaPlayer'
 end
